@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8fafc;
+  color: #111827;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+}
+
+.card-hover,
+.course-card {
+  transition: all 0.35s ease;
+}
+
+.card-hover:hover,
+.course-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.glass {
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.75);
+}
+
+.red-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 32px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.red-btn:hover {
+  background: #b91c1c;
+  transform: translateY(-2px);
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: rgba(255,255,255,0.6) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #dc2626 !important;
+}
+
+.glass-card {
+  transition: all 0.35s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(220, 38, 38, 0.12);
+}
