@@ -7,6 +7,7 @@ export default function About() {
       style={{
         padding: "80px 20px",
         background: "#ffffff",
+        boxSizing: "border-box",
       }}
     >
       <div
@@ -169,9 +170,12 @@ export default function About() {
   style={{
     maxWidth: "1200px",
     margin: "70px auto 0",
+    padding: "0 20px",
+    width: "100%",
+    boxSizing: "border-box",
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit,minmax(350px,1fr))",
-    gap: "25px",
+    gridTemplateColumns: "repeat(auto-fit,minmax(260px,1fr))",
+    gap: "18px",
   }}
 >
   {/* Syllabus Card */}
@@ -185,6 +189,8 @@ export default function About() {
       borderRadius: "24px",
       overflow: "hidden",
       boxShadow: "0 10px 30px rgba(0,0,0,0.06)",
+      boxSizing: "border-box",
+      maxWidth: "100%",
     }}
   >
     <div
@@ -239,6 +245,8 @@ export default function About() {
       borderRadius: "24px",
       overflow: "hidden",
       boxShadow: "0 10px 30px rgba(0,0,0,0.06)",
+      boxSizing: "border-box",
+      maxWidth: "100%",
     }}
   >
     <div

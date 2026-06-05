@@ -1,9 +1,9 @@
 export const SCHOOL = {
   name: "Sri Ram Motor Driving School",
   tagline: "Your Trusted Driving Partner in Mangalore",
-  phone: "+91 98765 43210",
-  whatsapp: "919876543210",
-  address: "Opposite Koragajja Katte, Padavinangady, Mangalore, Karnataka - 575028",
+  phone: "+91 91648 89404",
+  whatsapp: "919164889404",
+  address: "Opposite Koragajja Katte, Padavinangady, Mangalore, Karnataka - 575008",
   established: "2005",
 };
 
