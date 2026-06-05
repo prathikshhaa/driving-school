@@ -66,7 +66,19 @@ export default function Navbar() {
         }}
       >
         {/* Logo */}
-        <div>
+        <div
+          onClick={() => handleNavClick("#home")}
+          style={{
+            cursor: "pointer",
+            transition: "opacity 0.3s ease",
+          }}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.opacity = "0.8")
+          }
+          onMouseLeave={(e) =>
+            (e.currentTarget.style.opacity = "1")
+          }
+        >
           <div
             style={{
               fontSize: "26px",
